@@ -3,7 +3,7 @@ import {createRoot} from 'react-dom/client';
 import {Bell,SlidersHorizontal,Heart,MessageCircle,UserRound,Compass,RefreshCw,MoreHorizontal,MapPin,ChevronRight,X,Send,Video,Phone,Search,ArrowLeft,Check,Settings2} from 'lucide-react';
 import './styles.css';
 
-const A='/assets/';
+const A='/';
 const people=[['Maya','avatar-02.jpeg','Berlin · 2 km','Creative technologist'],['Sasha','avatar-03.jpeg','Berlin · 4 km','Music, coffee, long walks'],['Amara','avatar-04.jpeg','Kreuzberg · 1 km','Design & architecture'],['Kenji','avatar-05.jpeg','Neukölln · 5 km','Film, ramen, vinyl'],['Inès','avatar-06.jpeg','Mitte · 3 km','Dancer & book lover']];
 const stories=[['Your story','avatar-01.jpeg'],...people.map(p=>[p[0],p[1]])];
 
